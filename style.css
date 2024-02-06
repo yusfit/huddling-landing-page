@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background: url(/images/bg-desktop.svg);
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-color:  hsl(257, 40%, 49%);
+
+}
+
+.main{
+    display: flex;
+    margin-bottom: 10%;
+   
+}
+
+.mockup{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    float: left;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.headings p{
+    margin-left: 40px;
+    font-family: 'open sans', sans-serif;
+
+    
+}
+
+.headings h1{
+    font-family: 'poppins', sans-serif;
+    margin-left: 40px;
+    
+}
+
+.headings{
+    margin-top: 5%;
+    color: white;
+}
+
+.register{
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 30%;
+    height: 10%;
+    font-size: 13.5px;
+    border: hidden;
+    color:  hsl(257, 40%, 49%);
+    font-family: 'open sans', sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    transition: .4s ease;
+}
+
+.register:hover{
+    background: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: white;
+}
+
+.social_icon{
+    margin-left: 1100px;
+    margin-top: -105px;
+}
+
+.social_icon img{
+    width: 40px;
+}
+
+.social_icon img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
